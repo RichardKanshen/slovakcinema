@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Slovak Cinema',
   description: 'desc',
   generator: 'gen',
+  icons: {
+    icon: "/logo.png",
+  },
 }
 
 export default function RootLayout({

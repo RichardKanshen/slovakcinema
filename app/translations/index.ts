@@ -34,13 +34,13 @@ const translations = {
 
     welcome: "Welcome to Our Website",
     homeDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Here will be some awesome promo text. Testing testing testing testing testing testing testing testing testing testing.",
     whereWeParticipated: "Slovak presence in world cinema",
     learnMore: "Learn More",
     ourServices: "Our Services",
     contactInformation: "Contact Information",
     contactDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Here will be a contact form, contact details, and so on.",
     // Navigation items
     home: "Home",
     participated: "Slovak presence in world cinema",
@@ -50,7 +50,7 @@ const translations = {
       architecture: "Architectural Locations",
       transport: "Transport Locations",
       nature: "Natural Locations",
-      staff: "Personnel & Studios",
+      staff: "Staff & Studios",
     },
     cardTexts: {
       architecture: [
@@ -117,16 +117,16 @@ const translations = {
 
     welcome: "Vitajte na našej webstránke",
     homeDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    whereWeParticipated: "Slovenská prítomnosť vo svetovej kinematografii",
+      "Tu bude nejaký super promo text. Testing testing testing testing testing testing testing testing testing testing.",
+    whereWeParticipated: "Slovenská stopa vo svetovej kinematografii",
     learnMore: "Zistiť viac",
-    ourServices: "Naše služby",
+    ourServices: "Lokácie a služby",
     contactInformation: "Kontaktné informácie",
     contactDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Tu bude kontaktný formulár, kontaktné údaje a podobne...",
     // Navigation items
     home: "Domov",
-    participated: "Slovenská prítomnosť vo svetovej kinematografii",
+    participated: "Slovenská stopa vo svetovej kinematografii",
     cards: "Naše služby",
     contact: "Kontakt",
     cardTitles: {
