@@ -12,6 +12,8 @@ import { Menu } from "lucide-react"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
 
+type servicesTitles = "architectureTitle" | "architectureCard1Title" | "architectureCard2Title" | "transportTitle" | "transportCard1Title" | "transportCard2Title" | "staffTitle" | "staffCard1Title" | "staffCard2Title" | "naturetTitle" | "natureCard1Title" | "natureCard2Title";
+
 function ServicesLayoutInner({ children }: { children: ReactNode }) {
   const router = useRouter()
   const pathname = usePathname()
@@ -55,8 +57,8 @@ function ServicesLayoutInner({ children }: { children: ReactNode }) {
                   className="p-2 text-left rounded-lg bg-violet-600 text-white cursor-default"
                   disabled
                 >
-                  {t.services && t.services[currentService + "Title"]
-                    ? t.services[currentService + "Title"]
+                  {t.services && t.services[currentService + "Title" as servicesTitles]
+                    ? t.services[currentService + "Title" as servicesTitles]
                     : currentService}
                 </motion.button>
               )}
@@ -85,8 +87,8 @@ function ServicesLayoutInner({ children }: { children: ReactNode }) {
             className="p-2 text-left rounded-lg mb-2 bg-violet-600 text-white cursor-default"
             disabled
           >
-            {t.services && t.services[currentService + "Title"]
-              ? t.services[currentService + "Title"]
+            {t.services && (t.services[currentService + "Title" as servicesTitles])
+              ? (t.services[currentService + "Title" as servicesTitles])
               : currentService}
           </motion.button>
         )}
